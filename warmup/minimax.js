@@ -7,7 +7,7 @@ arr.sort(function (a, b) {
   return a - b;
 });
 
-console.log(arr);
+
 function minmax(arr) {
 
   arr.sort(function (a, b) {
@@ -17,10 +17,9 @@ function minmax(arr) {
   for (let i = 1; i <= arr.length - 1; i++) {
     sum += arr[i];
   }
+  
+  arr.pop();
 
-  let minsum = arr.pop();
-
- 
   for (let i = 0; i <= arr.length - 1; i++) {
     sum2 += arr[i];
   }
