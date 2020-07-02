@@ -4,6 +4,7 @@ let time = "07:05:45PM";
 
 function timeConversion(s) {
 
+    //Split hour, minutes and seconds
     let hour = time.split(':')[0];
     let min = time.split(':')[1];
     let sec = time.split(':')[2].substring(0,2);
