@@ -7,7 +7,7 @@ let b = 12;
 
 function bonAppetit(bill, k, b) {
 
-    let removed = bill.splice(k, 1);
+    bill.splice(k, 1);
 
     const add = (a,b) => a + b;
 
