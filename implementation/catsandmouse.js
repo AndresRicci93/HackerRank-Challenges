@@ -7,7 +7,7 @@ function catAndMouse(x, y, z) {
     let distCatA = Math.abs(x - z);
     let distCatB = Math.abs(y - z);
     
-     if (Math.abs(x - z) === Math.abs(y - z))  {
+     if (distCatA === distCatB)  {
     
       return "Mouse C";  
     
